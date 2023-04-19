@@ -5,9 +5,9 @@
     "passes": 5,
     "pending": 0,
     "failures": 0,
-    "start": "2023-04-19T14:15:09.322Z",
-    "end": "2023-04-19T14:15:09.337Z",
-    "duration": 15,
+    "start": "2023-04-19T14:50:54.955Z",
+    "end": "2023-04-19T14:50:54.968Z",
+    "duration": 13,
     "testsRegistered": 5,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "977dadb0-9150-4ed0-8802-620232e05b52",
+      "uuid": "eec939ab-9362-4198-8fd8-e5a1cb8d631b",
       "title": "",
       "fullFile": "C:\\Users\\Andrei_Kramski\\source\\repos\\Unit testing with NodeJS\\test\\specs\\isNumberEven.spec.js",
       "file": "\\test\\specs\\isNumberEven.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "4a452dac-66e6-4b5e-93c6-65a103a96aa9",
+          "uuid": "8928578d-5e31-4152-8ff3-60f6758170cf",
           "title": "isNumberEven positive scenarios",
           "fullFile": "C:\\Users\\Andrei_Kramski\\source\\repos\\Unit testing with NodeJS\\test\\specs\\isNumberEven.spec.js",
           "file": "\\test\\specs\\isNumberEven.spec.js",
@@ -45,8 +45,8 @@
               "context": null,
               "code": "validator = new NumbersValidator();",
               "err": {},
-              "uuid": "47aaeee4-0192-4de3-9458-fe928a5a61f8",
-              "parentUUID": "4a452dac-66e6-4b5e-93c6-65a103a96aa9",
+              "uuid": "803dc8f6-ebce-4533-9242-af20574977d0",
+              "parentUUID": "8928578d-5e31-4152-8ff3-60f6758170cf",
               "isHook": true,
               "skipped": false
             }
@@ -65,8 +65,8 @@
               "context": null,
               "code": "validator = null;",
               "err": {},
-              "uuid": "f3a55856-ee6b-48be-8d39-121358307f16",
-              "parentUUID": "4a452dac-66e6-4b5e-93c6-65a103a96aa9",
+              "uuid": "ce14408b-db55-4030-a29b-b4890a920fff",
+              "parentUUID": "8928578d-5e31-4152-8ff3-60f6758170cf",
               "isHook": true,
               "skipped": false
             }
@@ -85,8 +85,8 @@
               "context": null,
               "code": "expect(validator.isNumberEven(2)).to.be.equal(true);",
               "err": {},
-              "uuid": "a2ae9616-42de-4317-8175-a0a9ccd1639f",
-              "parentUUID": "4a452dac-66e6-4b5e-93c6-65a103a96aa9",
+              "uuid": "16ba5d88-af99-4723-8550-871878284c24",
+              "parentUUID": "8928578d-5e31-4152-8ff3-60f6758170cf",
               "isHook": false,
               "skipped": false
             },
@@ -103,8 +103,8 @@
               "context": null,
               "code": "expect(validator.isNumberEven(3)).to.be.equal(false);",
               "err": {},
-              "uuid": "b72e9d4e-d408-4de9-bc5b-67ab06275ea6",
-              "parentUUID": "4a452dac-66e6-4b5e-93c6-65a103a96aa9",
+              "uuid": "bbed49bb-942b-434d-b2f9-af4bc3c63e1f",
+              "parentUUID": "8928578d-5e31-4152-8ff3-60f6758170cf",
               "isHook": false,
               "skipped": false
             },
@@ -112,7 +112,7 @@
               "title": "chai test Object",
               "fullTitle": "isNumberEven positive scenarios chai test Object",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -121,8 +121,8 @@
               "context": null,
               "code": "expect({a: 1, b: 'apple'}).to.be.eql({a: 1, b: 'apple'});",
               "err": {},
-              "uuid": "80360405-3902-46dc-aa77-8554eef4df43",
-              "parentUUID": "4a452dac-66e6-4b5e-93c6-65a103a96aa9",
+              "uuid": "560abaca-e6f1-4779-b315-7560c7fc570b",
+              "parentUUID": "8928578d-5e31-4152-8ff3-60f6758170cf",
               "isHook": false,
               "skipped": false
             },
@@ -139,8 +139,8 @@
               "context": null,
               "code": "expect([1, 'apple']).to.be.eql([1, 'apple']);",
               "err": {},
-              "uuid": "fb9d940d-d4fc-4518-9476-72d500deaf4c",
-              "parentUUID": "4a452dac-66e6-4b5e-93c6-65a103a96aa9",
+              "uuid": "e8dc8b6d-6fe3-4bdb-8178-586a5a222f0b",
+              "parentUUID": "8928578d-5e31-4152-8ff3-60f6758170cf",
               "isHook": false,
               "skipped": false
             },
@@ -157,24 +157,24 @@
               "context": null,
               "code": "expect([1, 'apple']).to.have.length(2);",
               "err": {},
-              "uuid": "df97d370-6e77-4b1c-a5ef-dc6e829cf6df",
-              "parentUUID": "4a452dac-66e6-4b5e-93c6-65a103a96aa9",
+              "uuid": "3de39966-ee05-4d2c-b0ba-8c7669884229",
+              "parentUUID": "8928578d-5e31-4152-8ff3-60f6758170cf",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "a2ae9616-42de-4317-8175-a0a9ccd1639f",
-            "b72e9d4e-d408-4de9-bc5b-67ab06275ea6",
-            "80360405-3902-46dc-aa77-8554eef4df43",
-            "fb9d940d-d4fc-4518-9476-72d500deaf4c",
-            "df97d370-6e77-4b1c-a5ef-dc6e829cf6df"
+            "16ba5d88-af99-4723-8550-871878284c24",
+            "bbed49bb-942b-434d-b2f9-af4bc3c63e1f",
+            "560abaca-e6f1-4779-b315-7560c7fc570b",
+            "e8dc8b6d-6fe3-4bdb-8178-586a5a222f0b",
+            "3de39966-ee05-4d2c-b0ba-8c7669884229"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2,
+          "duration": 3,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

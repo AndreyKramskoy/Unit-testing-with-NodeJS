@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "lint": "eslint"
+    "lint": "eslint",
+    "coverage": "nyc npm run test"
   },
   "keywords": [
     "mocha"
@@ -16,8 +17,22 @@
     "chai": "^4.3.7",
     "eslint": "^8.38.0",
     "eslint-config-google": "^0.14.0",
+    "husky": "^8.0.3",
     "lint": "^0.8.19",
     "mocha": "^10.2.0",
-    "mochawesome": "^7.1.3"
+    "mochawesome": "^7.1.3",
+    "nyc": "^15.1.0"
+  },
+  "nyc": {
+    "reporter": "html",
+    "check-coverage": true,
+    "branches": 15,
+    "lines": 40,
+    "functions": 50
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run coverage"
+    }
   }
 }
