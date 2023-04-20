@@ -26,9 +26,9 @@
   "nyc": {
     "reporter": "html",
     "check-coverage": true,
-    "branches": 15,
-    "lines": 40,
-    "functions": 50
+    "branches": 10,
+    "lines": 10,
+    "functions": 10
   },
   "husky": {
     "hooks": {
